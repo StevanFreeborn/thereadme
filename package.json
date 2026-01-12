@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "format": "prettier --write",
     "dev": "slidev --open",
     "build": "slidev build",
     "export": "slidev export"
@@ -12,5 +13,24 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.26"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4",
+    "prettier-plugin-slidev": "^1.0.5"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": [
+          "slides/**/*.md"
+        ],
+        "options": {
+          "parser": "slidev",
+          "plugins": [
+            "prettier-plugin-slidev"
+          ]
+        }
+      }
+    ]
   }
 }

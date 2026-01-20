@@ -1,4 +1,5 @@
 ---
+title: A Trick for Designing Friendly APIs in Go
 theme: default
 layout: center
 class: text-center

@@ -1,5 +1,5 @@
 ---
-title: A Trick for Designing Friendly APIs in Go
+title: Why I Love Control Flow in C#
 theme: default
 layout: center
 class: text-center
